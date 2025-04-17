@@ -1,6 +1,6 @@
 // Problem: Combination Sum 
 // Link: https://leetcode.com/problems/combination-sum/description/
-// Approach: Backtracking
+// Approach: Using Backtracking
 
 package Backtracking;
 import java.util.*;

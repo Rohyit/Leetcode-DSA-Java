@@ -1,6 +1,6 @@
 // Problem: Subsets
 // Link: https://leetcode.com/problems/subsets/description/
-// Approach: Backtracking
+// Approach: Using Backtracking
 
 package Backtracking;
 import java.util.*;
