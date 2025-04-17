@@ -1,6 +1,6 @@
 // Problem: Subsets II
 // Link: https://leetcode.com/problems/subsets-ii/description/
-// Approach: Tree
+// Approach: Backtracking
 
 package Backtracking;
 import java.util.*;
