@@ -1,6 +1,6 @@
 // Problem: Permutations
 // Link: https://leetcode.com/problems/permutations/description/
-// Approach: Backtracking
+// Approach: Using Backtracking
 
 package Backtracking;
 import java.util.*;
