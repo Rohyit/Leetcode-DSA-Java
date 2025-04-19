@@ -1,5 +1,5 @@
 // Problem: Container With Most Water
-// Link: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+// Link: https://leetcode.com/problems/container-with-most-water/
 // Approach: Two pointer
 
 class Solution {
