@@ -13,8 +13,9 @@ A collection of Leetcode problems solved in Java, organized by data structure an
 - Trees
 - Recursion & Backtracking
 - Graph
+- Greedy
   
-- Upcoming: **DP, Heaps, Greedy, Tries, Bit Manipulation, Sorting & Searching**
+- Upcoming: **DP, Heaps, Tries, Bit Manipulation, Sorting & Searching**
 
 Each folder contains:
 - Well-named Java files
