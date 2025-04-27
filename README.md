@@ -22,6 +22,8 @@ Each folder contains:
 - Clean and consistent code
 - Intuitive logic
 
+![LeetCode Stats](https://leetcard.jacoblin.cool/rohyit?theme=dark&font=baloo)
+
 ## Goals
 
 - Solve 500+ quality Leetcode problems
