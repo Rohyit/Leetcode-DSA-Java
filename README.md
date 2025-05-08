@@ -15,6 +15,7 @@ A collection of Leetcode problems solved in Java, organized by data structure an
 - Graph
 - Greedy
 - Bit Manipulation
+- Matrix
   
 - Upcoming: **DP, Heaps, Tries, Sorting & Searching**
 
