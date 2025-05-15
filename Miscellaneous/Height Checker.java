@@ -4,7 +4,7 @@
 package Miscellaneous;
 import java.util.*;
 
-class Solution {
+class Solution { 
     public int heightChecker(int[] heights) {
         int[] original = new int[heights.length];
         for(int i=0; i<heights.length; i++){
