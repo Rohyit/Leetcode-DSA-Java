@@ -10,7 +10,7 @@ class Solution {
         for(int i=0; i<heights.length; i++){
             original[i] = heights[i];
         }
-        Arrays.sort(heights);
+        Arrays.sort(heights); 
         int count = 0;
         for(int i=0; i<heights.length; i++){
             if(heights[i] != original[i]){
