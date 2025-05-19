@@ -1,6 +1,6 @@
 // Problem: Minimum Operations to Make Array Sum Divisible by K
 // Link: https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/description/
-// Contest : Weekly-445
+// Contest : BiWeekly-154
 
 package Contests;
 
