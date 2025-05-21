@@ -5,42 +5,29 @@
 package POTD;
 import java.util.*;
 
-class Pair{
-    int first;
-    int second;
-    Pair(int first, int second){
-        this.first = first;
-        this.second = second;
-    }
-    public int hashCode() {
-        return Objects.hash(first, second);
-    }
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Pair)) return false;
-        Pair p = (Pair) o;
-        return this.first == p.first && this.second == p.second;
-    }
-}
 class Solution {
-    public int numEquivDominoPairs(int[][] dominoes) {
-        Map<Pair, Integer> map = new HashMap<>();
-        for(int i=0; i<dominoes.length; i++){
-            if(dominoes[i][0]<dominoes[i][1]){
-                map.put(new Pair(dominoes[i][0], dominoes[i][1]), map.getOrDefault(new Pair(dominoes[i][0], dominoes[i][1]), 0)+1);
-            }
-            else{
-                map.put(new Pair(dominoes[i][1], dominoes[i][0]), map.getOrDefault(new Pair(dominoes[i][1], dominoes[i][0]), 0)+1);
+    public void setZeroes(int[][] matrix) {
+        int m = matrix.length;
+        int n = matrix[0].length;
+        List<Integer> row = new ArrayList<>();
+        List<Integer> col = new ArrayList<>();
+        for(int i=0; i<m; i++){
+            for(int j=0; j<n; j++){
+                if(matrix[i][j] == 0){
+                    row.add(i);
+                    col.add(j);
+                }
             }
         }
-        int count =0;
-        for(Map.Entry<Pair, Integer> entry : map.entrySet()){
-            int x = entry.getValue();
-            if(x>1){
-                count += x*(x-1)/2;
+        for(int r : row){
+            for(int i=0; i<n; i++){
+                matrix[r][i] = 0;
             }
-
         }
-        return count;
+        for(int c : col){
+            for(int i=0; i<m; i++){
+                matrix[i][c] = 0;
+            }
+        }
     }
 }
