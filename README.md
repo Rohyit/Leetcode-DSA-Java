@@ -16,8 +16,9 @@ A collection of Leetcode problems solved in Java, organized by data structure an
 - Greedy
 - Bit Manipulation
 - Matrix
+- Trie
   
-- Upcoming: **DP, Heaps, Tries, Sorting & Searching**
+- Upcoming: **DP, Heaps, Sorting & Searching**
 
 Each folder contains:
 - Well-named Java files
