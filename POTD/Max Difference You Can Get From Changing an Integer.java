@@ -3,7 +3,6 @@
 // Date : 15-June-2025
 
 package POTD;
-import java.util.*;
 
 class Solution {
     public int maxDiff(int num) {
@@ -22,19 +21,18 @@ class Solution {
         }
 
         String smin = Integer.toString(num);
-        Set<Character> set = new HashSet<>();
-
-        for(int i=0; i<smin.length(); i++){
-            set.add(smin.charAt(i));
-        }
+        char ch = smin.charAt(0);
 
         for(int i=0; i<smin.length(); i++){
             char c = smin.charAt(i);
+            if(c != ch){
+                ch = c;
+            }
             if(i == 0 && c != '1'){
                 smin = smin.replace(c, '1');
                 break;
             }
-            else if(i != 0 && set.size() != 1 && c != '0' && c != smin.charAt(0)){
+            else if(i != 0 && ch != smin.charAt(0) && c != '0' && c != smin.charAt(0)){
                 smin = smin.replace(c, '0');
                 break;
             }
