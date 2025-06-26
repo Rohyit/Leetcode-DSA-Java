@@ -45,4 +45,4 @@ class Solution {
         calculateSum(root.left, level - 1);
         calculateSum(root.right, level - 1);
     }
-}
+}  
