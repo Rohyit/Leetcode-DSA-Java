@@ -2,8 +2,6 @@
 // Link: https://leetcode.com/problems/climbing-stairs/description/
 // Approach: DP - Tabulation 
 
-package Dynamic Programming;
-
 class Solution {
     public int climbStairs(int n) {
         if(n==0 || n==1){
