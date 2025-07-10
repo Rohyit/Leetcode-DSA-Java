@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/triangle/description/
 // Approach: DP - Memoization
 
+// Since there are n different recurrence relations that can be formed if we start from the bottom till the top,
+// Hence, we will start from the fixed point which is at the top and our base case will be when we reach last row
+
 import java.util.*;
 
 class Solution {
