@@ -23,7 +23,6 @@ class Solution {
         return equalSubset(n-1, target, nums, dp);
     }
     private boolean equalSubset(int i, int target, int[] nums, int[][] dp){
-        int n = nums.length;
         
         if(target == 0){
             return true;
