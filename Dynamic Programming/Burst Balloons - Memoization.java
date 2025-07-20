@@ -4,6 +4,8 @@
 
 // Note : Revise Min Cost to Cut a stick Problem before this
 
+// Note : We will go from down to up in recursion tree in this problem.
+
 import java.util.*; 
 
 class Solution {
