@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/search-insert-position/description/
 // Approach: Binary Search 
 
+// Lower Bound - smallest i >= target
+// Upper Bound - smallest i > target
+
 class Solution {
     public int searchInsert(int[] nums, int target) {
         int low = 0;
