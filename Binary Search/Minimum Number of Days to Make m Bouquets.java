@@ -4,44 +4,53 @@
 
 class Solution {
     public int minDays(int[] bloomDay, int m, int k) {
-        if ((long) m * k > bloomDay.length) {
+        long val = (long)m * (long)k;
+        if(bloomDay.length < val){
             return -1;
         }
 
-        int low = 1, high = (int) 1e9;
-        while (low < high) {
-            int mid = low + (high - low) / 2;
+        int maxi = Integer.MIN_VALUE;
+        int mini = Integer.MAX_VALUE;
+    
+        for(int i=0; i<bloomDay.length; i++){
+            maxi = Math.max(maxi, bloomDay[i]);
+            mini = Math.min(mini, bloomDay[i]);
+        }
+    
+        int low = mini;
+        int high = maxi;
 
-            if (isPossibleBouquets(bloomDay, m, k, mid)) {
-                high = mid;
-            } else {
+        while(low <= high){
+            int mid = (low + high) / 2;
+            if(possible(bloomDay, m, k, mid)){
+                high = mid - 1;
+            }
+            else{
                 low = mid + 1;
             }
-        };
-
+        }
         return low;
     }
-    private boolean isPossibleBouquets(int[] bloomDay, int m, int k, int day) {
+    private boolean possible(int[] bloomDay, int m, int k, int day) {
+        int n = bloomDay.length;
         int total = 0;
-
-        for (int i = 0; i < bloomDay.length; i++) {
-            int count = 0;
-            while (i < bloomDay.length && count < k && bloomDay[i] <= day) {
-                count++;
-                i++;
+        int cnt = 0;
+        for(int i = 0; i < n; i++){
+            if(bloomDay[i] <= day){
+                cnt++;
             }
-
-            if (count == k) {
-                total++;
-                i--;
-            }
-
-            if (total >= m) {
-                return true;
+            else{
+                total += cnt / k;
+                cnt = 0;
             }
         }
+        total += cnt / k;
 
-        return false;
+        if(total >= m){
+            return true;
+        }
+        else{
+            return false;
+        }
     }
-
 }
