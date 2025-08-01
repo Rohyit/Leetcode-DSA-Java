@@ -1,4 +1,4 @@
-// Problem: Find a Peak Element II
+// Problem: Find the Peak Element II
 // Link: https://leetcode.com/problems/find-a-peak-element-ii/description/
 // Approach: Binary Search 
 
