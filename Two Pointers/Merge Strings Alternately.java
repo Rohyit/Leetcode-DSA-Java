@@ -1,4 +1,4 @@
-// Problem: Merge Strings Alternately
+// Problem: Merge the Strings Alternately
 // Link: https://leetcode.com/problems/merge-strings-alternately/
 // Approach: Two pointer
 
