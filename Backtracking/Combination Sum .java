@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/combination-sum/description/
 // Approach: Using Backtracking
 
+// T.C : O(2^n)
+// S.C : Auxiliary : O(n)
+
 package Backtracking;
 import java.util.*;
 
@@ -27,3 +30,4 @@ class Solution {
         findCombinations(i+1, arr, target, list, ds);
     }
 }
+
