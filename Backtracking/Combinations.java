@@ -2,6 +2,8 @@
 // Link: https://leetcode.com/problems/combinations/description/
 // Approach: Using Backtracking
 
+// T.C : O(C(n, k) * k)
+
 package Backtracking;
 import java.util.*;
 
