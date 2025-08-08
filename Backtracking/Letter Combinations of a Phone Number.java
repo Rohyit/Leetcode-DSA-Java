@@ -2,7 +2,7 @@
 // Link: https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/
 // Approach: Using Backtracking
 
-// // T.C. : O(3^m * 4^n)
+// // T.C. : O(4^n)
 
 package Backtracking;
 import java.util.*;
