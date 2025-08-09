@@ -2,6 +2,8 @@
 // Link: https://leetcode.com/problems/subsets/description/
 // Approach: Using Backtracking
 
+// T.C. : O(2^n)
+
 package Backtracking;
 import java.util.*;
 
