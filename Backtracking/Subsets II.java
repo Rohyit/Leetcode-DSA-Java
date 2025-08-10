@@ -5,6 +5,8 @@
 package Backtracking;
 import java.util.*;
 
+// T.C. : O(2^n)
+
 class Solution {
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         List<List<Integer>> list = new ArrayList<>();
