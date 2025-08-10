@@ -2,10 +2,10 @@
 // Link: https://leetcode.com/problems/subsets-ii/description/
 // Approach: Using Backtracking
 
+// T.C. : O(2^n)
+
 package Backtracking;
 import java.util.*;
-
-// T.C. : O(2^n)
 
 class Solution {
     public List<List<Integer>> subsetsWithDup(int[] nums) {
