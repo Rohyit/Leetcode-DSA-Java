@@ -2,6 +2,8 @@
 // Link: https://leetcode.com/problems/permutations/description/
 // Approach: Using Backtracking
 
+// T.C : O(n * n!)
+
 package Backtracking;
 import java.util.*;
 
