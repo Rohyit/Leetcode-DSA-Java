@@ -5,6 +5,8 @@
 package Backtracking;
 import java.util.*;
 
+// T.C : O(n!)
+
 class Solution {
     public List<List<Integer>> permuteUnique(int[] nums) {
         Set<List<Integer>> set = new HashSet<>();
