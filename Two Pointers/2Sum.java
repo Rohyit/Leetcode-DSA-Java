@@ -2,6 +2,8 @@
 // Link: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 // Approach: Two pointer
 
+// T.C. : O(n)
+// S.C. : O(1)
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
