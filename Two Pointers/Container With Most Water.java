@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/container-with-most-water/
 // Approach: Two pointer
 
+// T.C. : O(n)
+// S.C. : O(1)
+
 class Solution {
     public int maxArea(int[] height) {
         int left=0, right=height.length-1, maxArea=0;
