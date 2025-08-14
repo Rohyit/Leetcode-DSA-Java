@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/4sum/description/
 // Approach: Two pointer
 
+// T.C. : O(n^3)
+// S.C. : O(1)
+
 import java.util.*;
 
 class Solution {
