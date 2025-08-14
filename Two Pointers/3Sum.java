@@ -3,7 +3,7 @@
 // Approach: Two pointer
 
 // T.C. : O(n^2)
-// S.C. : O(n^2)
+// S.C. : O(1)
 
 import java.util.*;
 
