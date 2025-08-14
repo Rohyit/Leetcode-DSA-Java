@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/3sum/
 // Approach: Two pointer
 
+// T.C. : O(n^2)
+// S.C. : O(n^2)
+
 import java.util.*;
 
 class Solution {
