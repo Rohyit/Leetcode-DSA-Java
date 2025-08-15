@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
 // Approach: Two pointer
 
+// T.C. : O(n)
+// S.C. : O(1)
+
 class Solution {
     public int maxProfit(int[] prices) {
         int minPrice = Integer.MAX_VALUE;
