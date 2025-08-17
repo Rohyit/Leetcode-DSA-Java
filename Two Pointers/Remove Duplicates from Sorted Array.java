@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
 // Approach: Two pointer
 
+// T.C. : O(n)
+// S.C. : O(1)
+
 class Solution {
     public int removeDuplicates(int[] nums) {
         int left=0;
