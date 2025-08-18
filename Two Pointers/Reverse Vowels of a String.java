@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/reverse-vowels-of-a-string/description/
 // Approach: Two pointer
 
+// T.C. : O(n)
+// S.C. : O(n)
+
 class Solution {
     public String reverseVowels(String s) {
         int left=0, right = s.length()-1;
