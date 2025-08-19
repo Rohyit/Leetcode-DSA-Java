@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/is-subsequence/description/
 // Approach: Two pointer
 
+// T.C. : O(n)
+// S.C. : O(1)
+
 class Solution {
     public boolean isSubsequence(String s, String t) {
         int i = 0, j=0;
