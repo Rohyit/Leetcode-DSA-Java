@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/valid-palindrome/description/
 // Approach: Two pointer
 
+// T.C. : O(n)
+// S.C. : O(1)
+
 class Solution {
     public boolean isPalindrome(String s) {
         int i=0, j=s.length()-1;
