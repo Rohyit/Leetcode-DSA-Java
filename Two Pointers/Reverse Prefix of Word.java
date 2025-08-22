@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/reverse-prefix-of-word/description/
 // Approach: Two pointer
 
+// T.C. : O(n)
+// S.C. : O(n)
+
 class Solution {
     public String reversePrefix(String word, char ch) {
         int x = word.indexOf(ch);
