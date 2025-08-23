@@ -5,8 +5,6 @@
 // T.C. : O(n)
 // S.C. : O(n)
 
-import java.util.*;
-
 class Solution {
     public int[] rearrangeArray(int[] nums) {
         int[] arr = new int[nums.length];
