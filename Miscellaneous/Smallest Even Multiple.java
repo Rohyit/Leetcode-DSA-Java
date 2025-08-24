@@ -1,6 +1,9 @@
 // Problem: Smallest Even Multiple
 // Link: https://leetcode.com/problems/smallest-even-multiple/description/
 
+// T.C. : O(1)
+// S.C. : O(1)
+
 package Miscellaneous;
 
 class Solution {
