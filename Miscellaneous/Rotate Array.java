@@ -1,6 +1,9 @@
 // Problem: Rotate Array
 // Link: https://leetcode.com/problems/rotate-array/description/
 
+// T.C. : O(n)
+// S.C. : O(1)
+
 package Miscellaneous;
 
 class Solution {
