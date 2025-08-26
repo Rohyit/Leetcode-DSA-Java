@@ -1,6 +1,9 @@
 // Problem: Largest Odd Number in a String
 // Link: https://leetcode.com/problems/largest-odd-number-in-string/
 
+// T.C. : O(n)
+// S.C. : O(1)
+
 package Miscellaneous;
 
 class Solution {
