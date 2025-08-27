@@ -1,21 +1,22 @@
 // Problem: Length of Last Word
 // Link: https://leetcode.com/problems/length-of-last-word/
 
+// T.C. : O(n)
+// S.C. : O(1)
+
 package Miscellaneous;
 
 class Solution {
     public int lengthOfLastWord(String s) {
-        int len = 0;
-        int i = s.length()-1;
-
-        while(i>=0 && s.charAt(i) == ' '){
-            i--;
+        String str = s.trim();
+        int n = str.length();
+        int count = 0;
+        for(int i = n-1; i>=0; i--){
+            if(str.charAt(i) == ' '){
+                break;
+            }
+            count++;
         }
-
-        while(i>=0 && s.charAt(i) != ' '){
-            len++;
-            i--;
-        }
-        return len;
+        return count;
     }
 }
