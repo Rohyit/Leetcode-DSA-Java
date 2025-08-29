@@ -1,6 +1,9 @@
 // Problem: Find Numbers with Even Number of Digits
 // Link: https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
 
+// T.C. : O(n * m)
+// S.C. : O(1)
+
 package Miscellaneous;
 
 class Solution {
