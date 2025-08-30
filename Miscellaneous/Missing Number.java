@@ -1,6 +1,9 @@
 // Problem: Missing Number
 // Link: https://leetcode.com/problems/missing-number/
 
+// T.C. : O(n)
+// S.C. : O(1)
+
 package Miscellaneous;
 
 class Solution {
