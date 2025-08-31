@@ -1,6 +1,9 @@
 // Problem: Majority Element II
 // Link: https://leetcode.com/problems/majority-element-ii/
 
+// T.C. : O(n)
+// S.C. : O(n)
+
 package Miscellaneous;
 import java.util.*;
 
