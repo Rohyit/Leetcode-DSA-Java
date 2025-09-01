@@ -1,6 +1,9 @@
 // Problem: Concatenation of Array
 // Link: https://leetcode.com/problems/concatenation-of-array/description/
 
+// T.C. : O(n)
+// S.C. : O(n)
+
 package Miscellaneous;
 
 class Solution {
