@@ -1,6 +1,9 @@
 // Problem: Complex Number Multiplication
 // Link: https://leetcode.com/problems/complex-number-multiplication/description/
 
+// T.C. : O(1)
+// S.C. : O(1)
+
 package Miscellaneous;
 
 class Solution {
