@@ -1,6 +1,9 @@
 // Problem: Determine if Two Strings Are Close
 // Link: https://leetcode.com/problems/determine-if-two-strings-are-close/
 
+// T.C. : O(nlogn)
+// S.C. : O(1)
+
 package Miscellaneous;
 import java.util.*;
 
