@@ -1,6 +1,9 @@
 // Problem: Distribute Candies Among Children I
 // Link: https://leetcode.com/problems/distribute-candies-among-children-i/
 
+// T.C. : O(n^2)
+// S.C. : O(1)
+
 package Miscellaneous;
 
 class Solution {
