@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/sort-colors/description/
 // Date : 17-May-2025
 
+// T.C. : O(n)
+// S.C. : O(1)
+
 package POTD;
 
 class Solution {
