@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/maximum-average-subarray-i/
 // Approach: Sliding Window
 
+// T.C. : O(n)
+// S.C. : O(1)
+
 class Solution {
     public double findMaxAverage(int[] nums, int k) {
         double windowSum=0;
