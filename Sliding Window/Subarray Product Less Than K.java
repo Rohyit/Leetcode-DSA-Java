@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/subarray-product-less-than-k/description/
 // Approach: Sliding Window
 
+// T.C. : O(n)
+// S.C. : O(1)
+
 class Solution {
     public int numSubarrayProductLessThanK(int[] nums, int k) {
         int count = 0, left=0, product=1;
