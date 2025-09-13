@@ -1,6 +1,9 @@
 // Problem: Height Checker
 // Link: https://leetcode.com/problems/height-checker/description/
 
+// T.C. : O(nlogn)
+// S.C. : O(n)
+
 package Miscellaneous;
 import java.util.*;
 
