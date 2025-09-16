@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/set-mismatch/
 // Approach: Hashing
 
+// T.C. : O(n)
+// S.C. : O(n)
+
 package Hashing;
 import java.util.*;
 
