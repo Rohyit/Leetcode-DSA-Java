@@ -3,6 +3,9 @@
 // Link: https://leetcode.com/problems/valid-anagram/description/
 // Approach: Hashing
 
+// T.C. : O(n)
+// S.C. : O(n)
+
 package Hashing;
 import java.util.*;
 
