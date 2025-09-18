@@ -1,6 +1,9 @@
 // Problem: Merge Sorted Array
 // Link: https://leetcode.com/problems/merge-sorted-array/description/
 
+// T.C. : O(nlogn)
+// S.C. : O(1)
+
 package Miscellaneous;
 import java.util.*;
 
