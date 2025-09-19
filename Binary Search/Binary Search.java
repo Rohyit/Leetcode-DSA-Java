@@ -2,6 +2,10 @@
 // Link: https://leetcode.com/problems/binary-search/description/
 // Approach: Binary Search
 
+
+// T.C. : O(logn)
+// S.C. : O(1)
+
 class Solution {
     public int search(int[] nums, int target) {
         int n = nums.length;
