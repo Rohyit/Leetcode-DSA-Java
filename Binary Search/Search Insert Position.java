@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/search-insert-position/description/
 // Approach: Binary Search 
 
+// T.C. : O(logn)
+// S.C. : O(1)
+
 // Lower Bound - smallest i >= target
 // Upper Bound - smallest i > target
 
