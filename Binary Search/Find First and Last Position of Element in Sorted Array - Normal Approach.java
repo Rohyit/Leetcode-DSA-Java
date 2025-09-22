@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 // Approach: Binary Search 
 
+// T.C. : O(logn)
+// S.C. : O(1)
+
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         int n = nums.length;
