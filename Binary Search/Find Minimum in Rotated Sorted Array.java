@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/
 // Approach: Binary Search 
 
+// T.C. : O(logn)
+// S.C. : O(1)
+
 class Solution {
     public int findMin(int[] nums) {
         int n = nums.length;
