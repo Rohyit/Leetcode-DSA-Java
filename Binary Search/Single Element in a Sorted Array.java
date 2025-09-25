@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/single-element-in-a-sorted-array/description/
 // Approach: Binary Search 
 
+// T.C. : O(logn)
+// S.C. : O(1)
+
 class Solution {
     public int singleNonDuplicate(int[] nums) {
         int n = nums.length;
