@@ -2,10 +2,17 @@
 // Link: https://leetcode.com/problems/valid-palindrome/description/
 // Approach: Two pointer
 
-// T.C. : O(n)
-// S.C. : O(1)
+// BRUTE FORCE : T.C. : O(n) S.C. : O(n)
+    /*
+        Clean the given string. Take a new string and add the reversed clean aplhanumeric characters in this string and compare both.
+    */
 
-class Solution {
+
+// Optimized
+    // T.C. : O(n)
+    // S.C. : O(1)
+
+    class Solution {
     public boolean isPalindrome(String s) {
         int i=0, j=s.length()-1;
         while(i<j){
