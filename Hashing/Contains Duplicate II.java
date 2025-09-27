@@ -3,6 +3,9 @@
 // Link: https://leetcode.com/problems/contains-duplicate-ii/description/
 // Approach: Hashing
 
+// T.C. : O(n)
+// S.C. : O(n)
+
 package Hashing;
 import java.util.*;
 
