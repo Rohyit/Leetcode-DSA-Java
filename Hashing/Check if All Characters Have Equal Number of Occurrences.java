@@ -3,6 +3,9 @@
 // Link: https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/description/
 // Approach: Hashing
 
+// T.C. : O(n)
+// S.C. : O(n) + O(n)
+
 package Hashing;
 import java.util.*;
 
