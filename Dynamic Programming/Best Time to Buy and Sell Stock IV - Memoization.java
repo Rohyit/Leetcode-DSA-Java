@@ -5,7 +5,7 @@
 class Solution {
     public int maxProfit(int k, int[] prices) {
         int n = prices.length;
-
+ 
         int[][][] dp = new int[n][2][k+1];
         for(int i=0; i<n; i++){
             for(int j=0; j<2; j++){

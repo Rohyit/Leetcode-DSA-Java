@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/top-k-frequent-elements/description/
 // Approach: Hashing
 
+// T.C. : O(nlogn)
+// S.C. : O(n)
+
 package Hashing;
 import java.util.*;
 
