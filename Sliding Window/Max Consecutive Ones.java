@@ -2,7 +2,7 @@
 // Link: https://leetcode.com/problems/max-consecutive-ones/description/
 // Approach: Sliding Window
 
-// T.C. : O(n)
+// T.C. : O(N)
 // S.C. : O(1)
 
 class Solution {
