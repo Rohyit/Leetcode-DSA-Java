@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/n-th-tribonacci-number/description/
 // Approach: DP - Tabulation
 
+// T.C. : O(n)
+// S.C. : O(n)
+
 class Solution {
     public int tribonacci(int n) {
 
