@@ -2,7 +2,7 @@
 // Link: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/
 // Approach: Binary Search 
 
-// T.C. : O(logn)
+// T.C. : O(logN)
 // S.C. : O(1)
 
 class Solution {
