@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/set-matrix-zeroes/description/
 // Aprroach : Matrix
 
+// T.C. : O(m x n)
+// S.C. : O(m + n)
+
 package Matrix;
 import java.util.*;
 
