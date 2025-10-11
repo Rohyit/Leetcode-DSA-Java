@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/transpose-matrix/
 // Aprroach : Matrix
 
+// T.C. : O(n*m)
+// S.C. : O(n+m)
+
 package Matrix;
 
 class Solution {
