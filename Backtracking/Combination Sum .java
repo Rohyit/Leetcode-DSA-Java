@@ -1,4 +1,4 @@
-// Problem: Combination Sum 
+// Problem: Combination Sum I
 // Link: https://leetcode.com/problems/combination-sum/description/
 // Approach: Using Backtracking
 
