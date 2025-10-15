@@ -2,7 +2,7 @@
 // Link: https://leetcode.com/problems/sort-colors/description/
 // Date : 17-May-2025
 
-// T.C. : O(n)
+// T.C. : O(N)
 // S.C. : O(1)
 
 package POTD;
