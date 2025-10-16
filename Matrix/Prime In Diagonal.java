@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/prime-in-diagonal/
 // Aprroach : Matrix
 
+// T.C. : O(n*sqrt(m))
+// S.C. : O(1)
+
 package Matrix;
 
 class Solution {
