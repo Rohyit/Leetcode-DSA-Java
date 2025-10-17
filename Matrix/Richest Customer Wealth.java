@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/richest-customer-wealth/description/
 // Aprroach : Matrix
 
+// T.C. : O(m * n)
+// S.C. : O(1)
+
 package Matrix;
 
 class Solution {
