@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/reverse-words-in-a-string/description/
 // Approach: Two pointer
 
+// T.C. : O(n)
+// S.C. : O(n)
+
 class Solution {
     public String reverseWords(String s) {
         StringBuilder sb = new StringBuilder();
