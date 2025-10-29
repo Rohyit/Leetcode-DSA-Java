@@ -2,7 +2,7 @@
 // Link: https://leetcode.com/problems/container-with-most-water/
 // Approach: Two pointer
 
-// T.C. : O(n)
+// T.C. : O(N)
 // S.C. : O(1)
 
 class Solution {
