@@ -1,6 +1,7 @@
 // Problem: Longest Common Prefix
 // Link: https://leetcode.com/problems/longest-common-prefix/
 
+package Miscellaneous;
 import java.util.*;
 
 class Solution {
