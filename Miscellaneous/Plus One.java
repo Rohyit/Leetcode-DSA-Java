@@ -1,6 +1,9 @@
 // Problem: Plus One
 // Link: https://leetcode.com/problems/plus-one/
 
+// T.C. : O(n)
+// S.C. : O(n)
+
 package Miscellaneous;
 
 class Solution {
@@ -19,3 +22,4 @@ class Solution {
         
     }
 }
+
