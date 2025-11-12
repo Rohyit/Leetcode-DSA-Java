@@ -1,6 +1,9 @@
 // Problem: Maximum Product Subarray
 // Link: https://leetcode.com/problems/maximum-product-subarray/description/
 
+// T.C. : O(n)
+// S.C. : O(1)
+
 package Miscellaneous;
 
 // Variation of Kadane's Algorithm
