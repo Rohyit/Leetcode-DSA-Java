@@ -1,7 +1,7 @@
 // Problem: Rotate Array
 // Link: https://leetcode.com/problems/rotate-array/description/
 
-// T.C. : O(n)
+// T.C. : O(N)
 // S.C. : O(1)
 
 package Miscellaneous;
