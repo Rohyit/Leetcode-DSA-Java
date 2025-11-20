@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/evaluate-reverse-polish-notation/description/
 // Approach: Stack
 
+// T.C. : O(n)
+// S.C. : O(n)
+
 package Stack;
 import java.util.*;
 
