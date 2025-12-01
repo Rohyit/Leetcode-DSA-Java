@@ -1,8 +1,6 @@
 // Problem: Length of Last Word
 // Link: https://leetcode.com/problems/length-of-last-word/
 
-// T.C. : O(n)
-// S.C. : O(1)
 
 package Miscellaneous;
 
