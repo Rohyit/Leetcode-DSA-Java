@@ -2,6 +2,9 @@
 // Link: https://leetcode.com/problems/jump-game/
 // Approach: Greedy 
 
+// T.C. : O(n)
+// S.C. : O(1)
+
 package Greedy;
 
 class Solution {
